@@ -58,7 +58,8 @@ Check [website](https://git-scm.com/)
 * **git rm file_name**: To delete file from staging area (It should have been deleted from the working directory too)
 
 ## Untrack change
-* In the working directory: You can just to the latest commit state for an specific file by using the command: **git checkout file_name**
+* In the working directory for one file: You can just to the latest commit state for an specific file by using the command: **git checkout file_name** or **git restore file_name** 
+* In the working directory for multiple files: **git checkout** or **git restore .**
 
 # Head
 * Head: Last commit we are pointing
