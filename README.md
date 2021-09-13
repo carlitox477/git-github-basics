@@ -48,5 +48,6 @@ Check [website](https://git-scm.com/)
 * **git branch**: It give us the names of all branches
 * **git branch new_branch_name**: It creates another branch
 * **git checkout -b new_branch_name**: It create a new branch and move the head to it.
+* **git merge other_branch**: It adds all the changes of other_branch to the current branch
 
 
