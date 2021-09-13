@@ -51,11 +51,18 @@ Check [website](https://git-scm.com/)
 * **git merge other_branch**: It adds all the changes of other_branch to the current branch
 * **git switch branch_name**:  To creat a move to other branch
 * **git switch -c branch_name**:  To create a new branch.
+* **git ls-files**: To see files that are considered in the current branch for, at least, the staging area
+* **git add**: Remove from stage area all the files deleted in the working directory
 
 ## Delete data
+* **git rm file_name**: To delete file from staging area (It should have been deleted from the working directory too)
 
+## Untrack change
+* In the working directory: You can just to the latest commit state for an specific file by using the command: **git checkout file_name**
 
 # Head
 * Head: Last commit we are pointing
 * Detahced Head: Special branch that is created when we switch move the head to an specific commit. This special branch is erased whenever we change branch, the only way to save it is to create a new branch
+
+
 
