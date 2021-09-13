@@ -60,13 +60,13 @@ Check [website](https://git-scm.com/)
 * **git clean -df**: To delete unstaged files from working directory
 * **git clean -dn**: To show unstaged files from working directory and the computer
 
-## Untrack change
-* In the working directory for one file: You can just to the latest commit state for an specific file by using the command: **git checkout file_name** or **git restore file_name** 
+## Untrack change from staging area to latest commit
+* In the working directory for one file: You can just to the latest commit state for an specific file by using the command: **git checkout file_name** or **git restore file_name**
 * In the working directory for multiple files: **git checkout** or **git restore .**
+
+## Untrack change from staging area
+**git reset file_name**: It doesn't errase anuthing, it just move it from staging area to the work directory
 
 # Head
 * Head: Last commit we are pointing
 * Detahced Head: Special branch that is created when we switch move the head to an specific commit. This special branch is erased whenever we change branch, the only way to save it is to create a new branch
-
-
-
