@@ -65,7 +65,10 @@ Check [website](https://git-scm.com/)
 * In the working directory for multiple files: **git checkout** or **git restore .**
 
 ## Untrack change from staging area
-**git reset file_name**: It doesn't errase anuthing, it just move it from staging area to the work directory
+**git reset file_name**: It doesn't errase anything, it just move it from staging area to the work directory
+
+## Undo commits
+**git reset -- soft HEAD~1**: This undo 1 commit from the branch, returning all changes done to the staging area
 
 # Head
 * Head: Last commit we are pointing
