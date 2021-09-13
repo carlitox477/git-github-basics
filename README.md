@@ -47,6 +47,6 @@ Check [website](https://git-scm.com/)
 * **git checkout commitId_or_branch**: It allow us to restore to a previous version or to move to other branch
 * **git branch**: It give us the names of all branches
 * **git branch new_branch_name**: It creates another branch
-* **git chechout -b new_branch_name**: It create a new branch and move the head to it.
+* **git checkout -b new_branch_name**: It create a new branch and move the head to it.
 
 
