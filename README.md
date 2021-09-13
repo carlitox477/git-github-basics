@@ -56,6 +56,9 @@ Check [website](https://git-scm.com/)
 
 ## Delete data
 * **git rm file_name**: To delete file from staging area (It should have been deleted from the working directory too)
+* **git clean -d**: To delete unstaged files from working directory
+* **git clean -df**: To delete unstaged files from working directory
+* **git clean -dn**: To show unstaged files from working directory and the computer
 
 ## Untrack change
 * In the working directory for one file: You can just to the latest commit state for an specific file by using the command: **git checkout file_name** or **git restore file_name** 
