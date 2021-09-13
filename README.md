@@ -68,8 +68,12 @@ Check [website](https://git-scm.com/)
 **git reset file_name**: It doesn't errase anything, it just move it from staging area to the work directory
 
 ## Undo commits
-**git reset -- soft HEAD~1**: This undo 1 commit from the branch, returning all changes done to the staging area
+* **git reset --soft HEAD~1**: This undo 1 commit from the branch, returning all changes done to the staging area
+* **git reset HEAD~1**: This undo 1 commit from the branch, returning all changes done to the working directory
+* **git reset --hard HEAD~1**: This undo 1 commit from the branch, returning 1 commit back
 
 # Head
 * Head: Last commit we are pointing
 * Detahced Head: Special branch that is created when we switch move the head to an specific commit. This special branch is erased whenever we change branch, the only way to save it is to create a new branch
+
+dsdsdsds
