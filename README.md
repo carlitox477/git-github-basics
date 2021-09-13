@@ -49,5 +49,13 @@ Check [website](https://git-scm.com/)
 * **git branch new_branch_name**: It creates another branch
 * **git checkout -b new_branch_name**: It create a new branch and move the head to it.
 * **git merge other_branch**: It adds all the changes of other_branch to the current branch
+* **git switch branch_name**:  To creat a move to other branch
+* **git switch -c branch_name**:  To create a new branch.
 
+## Delete data
+
+
+# Head
+* Head: Last commit we are pointing
+* Detahced Head: Special branch that is created when we switch move the head to an specific commit. This special branch is erased whenever we change branch, the only way to save it is to create a new branch
 
