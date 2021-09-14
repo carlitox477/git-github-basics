@@ -70,10 +70,13 @@ Check [website](https://git-scm.com/)
 ## Undo commits
 * **git reset --soft HEAD~1**: This undo 1 commit from the branch, returning all changes done to the staging area
 * **git reset HEAD~1**: This undo 1 commit from the branch, returning all changes done to the working directory
-* **git reset --hard HEAD~1**: This undo 1 commit from the branch, returning 1 commit back
+* **git reset --hard HEAD~1**: This undo 1 commit from the branch, returning 1 commit back erasing any change done.
+
+## Remove branches we don't need any more
+* Just one banch: **git branch -D branch_name**
+* Multiple branch: **git branch -D branch_name1 branch_name2**
+You can delete a branch when there is no more need of it
 
 # Head
 * Head: Last commit we are pointing
 * Detahced Head: Special branch that is created when we switch move the head to an specific commit. This special branch is erased whenever we change branch, the only way to save it is to create a new branch
-
-dsdsdsds
