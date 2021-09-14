@@ -86,3 +86,6 @@ Each commit always has its id. When we move the head to previous commits and we 
 
 When we switch from this branch to other we want to know this id, so we can generate other branch (if we want). To generate this new branch we use the command: **git branch new_branch_name detached _head_commit_id**
 
+# .gitignore
+* To ignore one file just write in one line its name. For instance, **text.log**
+* To ignore files with a particular type just taling into account it type. For example: __*.log__. To make an exeption you can specify the files by using the next sintaxis: __!exception.log__
