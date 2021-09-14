@@ -81,7 +81,8 @@ You can delete a branch when there is no more need of it
 * Head: Last commit we are pointing
 * Detahced Head: Special branch that is created when we switch move the head to an specific commit. This special branch is erased whenever we change branch, the only way to save it is to create a new branch
 
-dsdsdsds
-cxcxc
-cxcx
-Other commit
+# Detached Head mode
+Each commit always has its id. When we move the head to previous commits and we add other commit, it is generated a special id.
+
+When we switch from this branch to other we want to know this id, so we can generate other branch (if we want). To generate this new branch we use the command: **git branch new_branch_name detached _head_commit_id**
+
