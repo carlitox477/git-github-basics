@@ -64,6 +64,10 @@ Check [website](https://git-scm.com/)
 * In the working directory for one file: You can just to the latest commit state for an specific file by using the command: **git checkout file_name** or **git restore file_name**
 * In the working directory for multiple files: **git checkout** or **git restore .**
 
+## Restore initial commit state
+Just use __git clean -df__
+
+
 ## Untrack change from staging area
 **git reset file_name**: It doesn't errase anything, it just move it from staging area to the work directory
 
