@@ -81,7 +81,4 @@ You can delete a branch when there is no more need of it
 * Head: Last commit we are pointing
 * Detahced Head: Special branch that is created when we switch move the head to an specific commit. This special branch is erased whenever we change branch, the only way to save it is to create a new branch
 
-dsdsdsds
-cxcxc
-cxcx
-Other commit
+No more extra data
