@@ -115,3 +115,4 @@ For example, adding the same new file. We create and write the file in one of th
 Source: https://www.quora.com/Whats-the-difference-between-git-stash-and-git-stage
 
 # Restore deleted commits
+* **git reflog**: command to see all the the changes done during last 30 days, even those deleted commits. You can use the id provided to reset the branch just by using the command __git reset --hard reflog_id__
