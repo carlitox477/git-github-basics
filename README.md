@@ -116,3 +116,21 @@ Source: https://www.quora.com/Whats-the-difference-between-git-stash-and-git-sta
 
 # Restore deleted commits
 * **git reflog**: command to see all the the changes done during last 30 days, even those deleted commits. You can use the id provided to reset the branch just by using the command __git reset --hard reflog_id__
+
+# Merge Types
+First clasification:
+* Fast-Forward: When there are no additional commit in the master branch (after feature franch was created)
+* Non Fast-Forward
+
+Non Fast-Forward clasification:
+* Recursive
+* Octopus
+* Ours
+* Subtree
+
+Most common types are Fast-Forward and Non Fast-Forward Recursive merge.
+![Merge types](img/merge_types.png)
+
+## Fast-forward merge
+Merge moves HEAD forward but doen't create new commit. We can say that the branch that call the merge is just updated.
+![Merge fast forward](img/merge_fast_forward.png)
