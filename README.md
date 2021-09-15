@@ -163,3 +163,12 @@ They usually happen when we work on the same file in different branches. When th
 # Cherry-pick
 ![Merge VS Rebase VS Cherry-Pick](img/merge_vs_rebase_vs_cherry-pick.png)
 Use command **git cherry-pick commit-id** to add specific change (commit) in the current branch (this can come from any other branch). This will do a copy of the specific commit, meaning it will have a different commit id from the original
+
+# Git tag
+Useful to identify specific commits. It give an alias to a commit. Commands:
+* **git tag**: give all the tags from the project
+* **git tag tag_name_or_number**: It adds a tag refering to the current commit
+* **git tag tag_name_or_number commit_hash**: It adds a tag refering to the specified commit
+* **git show tag_name_or_number**: 
+* **git tag -d tag_name_or_number**: delete a tag
+* **git tag -a tag_name_or_number -m message**: It creates and add a message to a tag
