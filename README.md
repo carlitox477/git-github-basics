@@ -159,3 +159,7 @@ They usually happen when we work on the same file in different branches. When th
 * Accept incoming change: Accept the change that happened in the incoming branch
 * Accept both changes
 * __git diff__: To see differences in both version of the merged branches
+
+# Cherry-pick
+![Merge VS Rebase VS Cherry-Pick](img/merge_vs_rebase_vs_cherry-pick.png)
+Use command **git cherry-pick commit-id** to add specific change (commit) in the current branch (this can come from any other branch). This will do a copy of the specific commit, meaning it will have a different commit id from the original
