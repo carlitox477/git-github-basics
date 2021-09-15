@@ -134,3 +134,5 @@ Most common types are Fast-Forward and Non Fast-Forward Recursive merge.
 ## Fast-forward merge
 Merge moves HEAD forward but doen't create new commit. We can say that the branch that call the merge is just updated.
 ![Merge fast forward](img/merge_fast_forward.png)
+
+The command __git merge --squash branch_name__ allow us to group all the extra commits from branch_name to the stagging area of the current branch to make one single commit
