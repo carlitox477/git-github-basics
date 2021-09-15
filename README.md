@@ -152,3 +152,10 @@ Adding commits from other branch to de current branch. The result will be almost
 
 ## When to apply rebase?
 ![When to apply rebase](img/when-to-apply-rebase.png)
+
+# Merge conflicts
+They usually happen when we work on the same file in different branches. When this occurs, we can:
+* Accept current change: Accept the change that happened in the current branch
+* Accept incoming change: Accept the change that happened in the incoming branch
+* Accept both changes
+* __git diff__: To see differences in both version of the merged branches
