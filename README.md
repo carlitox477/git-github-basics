@@ -113,3 +113,5 @@ For example, adding the same new file. We create and write the file in one of th
 1. Copy the file, change to the other branch and paste the file in it. And if we change this file here to we need to do the same to move the changes to the other branch.
 1. Use the stash, change the branch, get stash and now we have the same file for both branches. This without adding it to the stage in any of the two branches. We can work on this stasg node, modify it and be able to use the same file in both branches.
 Source: https://www.quora.com/Whats-the-difference-between-git-stash-and-git-stage
+
+# Restore deleted commits
