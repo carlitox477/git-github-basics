@@ -93,3 +93,23 @@ When we switch from this branch to other we want to know this id, so we can gene
 # .gitignore
 * To ignore one file just write in one line its name. For instance, **text.log**
 * To ignore files with a particular type just taling into account it type. For example: __*.log__. To make an exeption you can specify the files by using the next sintaxis: __!exception.log__
+
+# stash
+A place where we can save uncommitted and/or unstaged progress.
+* **git stash**: To save the uncommitted and/or unstaged progress and rebuild the project to the latest commit state
+* **git stash apply**: To rebuild the stash
+* __git stash push -m "message"__: Add changes with comments into the stash
+* __git stash save "message"__: Add changes with comments into the stash
+* **git stash pop stash_index**: To commit a specific stash state and removed from the stash list
+* **git stash drop stash_index**: Drop a specific stash checkpoint
+* **git stash drop clear**: Drop all the stash checkpoints
+
+## stash motivation
+Whenever we change from one branch to other we lose the staging area data.
+
+When we are working in multiple branches we may need to do the same change for 2 branches.
+
+For example, adding the same new file. We create and write the file in one of those branches. Then, we can
+1. Copy the file, change to the other branch and paste the file in it. And if we change this file here to we need to do the same to move the changes to the other branch.
+1. Use the stash, change the branch, get stash and now we have the same file for both branches. This without adding it to the stage in any of the two branches. We can work on this stasg node, modify it and be able to use the same file in both branches.
+Source: https://www.quora.com/Whats-the-difference-between-git-stash-and-git-stage
