@@ -149,3 +149,6 @@ The command __git merge --squash branch_name__ allow us to group all the extra c
 ![Rebase](img/non-fast-forward-merge.png)
 
 Adding commits from other branch to de current branch. The result will be almost similar to a non fast-forward recursive merge. What happens is that we don't move de commits, we create new ones that are similar but with different ids. We shouldn't rebase commit outside our repository
+
+## When to apply rebase?
+![When to apply rebase](img/when-to-apply-rebase.png)
