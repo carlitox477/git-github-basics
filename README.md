@@ -182,6 +182,7 @@ From github, your repositories, new repository
 
 ## Github/git commands
 * **git remote add remote_repo_name URL**: To link the current local repository to a remote repository. The *remote_repo_name* is just an internal alias for the URL. Usually this name is origin.
+* **git remot show remote_repo_name**: Detail information about the *remote_repo_name*
 * **git branch -M new_branch_name**: To rename the current branch
 * **git push -u remote_repo_name_or_URL branch_name**: Bring local changes to the remote repository. If the *branch_name* doesn't exists, it will be created. The -u flag is used just for the first *branch_name* commit of the repositry, usually the first commit in the master branch
 * **git branch -a**: List local branches and remote tracking branches. 
@@ -207,3 +208,6 @@ It is created when we do our first branch push.
 
 ### Local tracking branch
 Similar to a remote tracking branch but this one can be edited. This branch is conected to the remote tracking branch. It MUST have the same name of the remote tracking branch
+
+### Overview
+![Local & Remote tracking branches](img/local_remote_tracking_branches.png)
