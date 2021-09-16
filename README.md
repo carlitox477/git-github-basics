@@ -185,3 +185,6 @@ From github, your repositories, new repository
 * **git branch -M new_branch_name**: To rename the current branch
 * **git push -u remote_repo_name_or_URL branch_name**: Bring local changes to the remote repository. If the *branch_name* doesn't exists, it will be created.
 * **git pull**
+
+## Personal access token
+It grant access to a github account. This can be useful if we are working in an unfamiliar computer or if we are using the command line
