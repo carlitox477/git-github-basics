@@ -184,17 +184,26 @@ From github, your repositories, new repository
 * **git remote add remote_repo_name URL**: To link the current local repository to a remote repository. The *remote_repo_name* is just an internal alias for the URL. Usually this name is origin.
 * **git branch -M new_branch_name**: To rename the current branch
 * **git push -u remote_repo_name_or_URL branch_name**: Bring local changes to the remote repository. If the *branch_name* doesn't exists, it will be created. The -u flag is used just for the first *branch_name* commit of the repositry, usually the first commit in the master branch
-* **git branch -a**: See local branches and remote tracking branches. 
-* **git branch -r**: See remote tracking branches. 
+* **git branch -a**: List local branches and remote tracking branches. 
+* **git branch -r**: List remote tracking branches. 
+* **git branch -r**: List remote tracking branches. 
+* **git branch --track branch_name remote_tracking_branch**: Creates a local tracking branch based on the specified remote tracking branch
+* **git branch -vv**: show last commit as well as which remote tracking branch is connected a local tracking branch
 * **git pull remote_repo_name branch_name**: To update the remote tracking branch and merge it with the local branch.
 * **git fetch remote_repo_name branch_name**: to update the remote tracking branch
 
 ## Personal access token
 It grant access to a github account. This can be useful if we are working in an unfamiliar computer or if we are using the command line
-g
-## Remote tracking branch
+
+## Branch types
+![Branch types](img/branch_types_overview.png)
+
+### Remote tracking branch
 ![Remote tracking branch commands](img/remote_tracking_branches_commands.png)
 
 Local read only copy of the remote branch.
 To update it we use the fetch command, to do this and merge it with our local branch in one step we use the pull command.
 It is created when we do our first branch push.
+
+### Local tracking branch
+Similar to a remote tracking branch but this one can be edited. This branch is conected to the remote tracking branch. It MUST have the same name of the remote tracking branch
