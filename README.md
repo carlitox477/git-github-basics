@@ -148,7 +148,8 @@ The command __git merge --squash branch_name__ allow us to group all the extra c
 # Rebasing
 ![Rebase](img/non-fast-forward-merge.png)
 
-Adding commits from other branch to de current branch. The result will be almost similar to a non fast-forward recursive merge. What happens is that we don't move de commits, we create new ones that are similar but with different ids. We shouldn't rebase commit outside our repository
+Adding commits from other branch to de current branch. The result will be almost similar to a non fast-forward recursive merge. What happens is that we don't move de commits, we create new ones that are similar but with different ids. We shouldn't rebase commit outside our repository. Commands:
+* **git rebase other_branch**
 
 ## When to apply rebase?
 ![When to apply rebase](img/when-to-apply-rebase.png)
@@ -172,3 +173,15 @@ Useful to identify specific commits. It give an alias to a commit. Commands:
 * **git show tag_name_or_number**: 
 * **git tag -d tag_name_or_number**: delete a tag
 * **git tag -a tag_name_or_number -m message**: It creates and add a message to a tag
+
+# Github
+![Github general idea](img/github_general_idea.png)
+
+## How to create a new remote repository on github?
+From github, your repositories, new repository
+
+## Github/git commands
+* **git remote add remote_repo_name URL**: To link the current local repository to a remote repository. The *remote_repo_name* is just an internal alias for the URL. Usually this name is origin.
+* **git branch -M new_branch_name**: To rename the current branch
+* **git push -u remote_repo_name_or_URL branch_name**: Bring local changes to the remote repository. If the *branch_name* doesn't exists, it will be created.
+* **git pull**
