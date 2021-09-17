@@ -193,6 +193,8 @@ From github, your repositories, new repository
 * **git pull remote_repo_name branch_name**: To update the remote tracking branch and merge it with the local branch.
 * **git fetch remote_repo_name branch_name**: to update the remote tracking branch
 * **git clone URL**: In an empty folder it clone a remote repository.
+* **git branch --delete --remote remote_tracking_branch**: It delete a remote tracking branch.
+* **git push remote_repo_name --delete branch_name**: It delete a branch in the remote repository
 
 ## Personal access token
 It grant access to a github account. This can be useful if we are working in an unfamiliar computer or if we are using the command line
